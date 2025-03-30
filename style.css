@@ -112,16 +112,7 @@ footer {
   article {
       width: 90%;
   }
-  /* Fade-in Animation */
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(20px); }
-  to { opacity: 1; transform: translateY(0); }
-}
 
-/* Apply Animation */
-section, article, .profile-pic, .social-links a {
-  animation: fadeIn 1s ease-in-out;
-}
 /* Dark Mode Styles */
 body.dark-mode {
   background-color: #1e1e1e;
@@ -163,5 +154,13 @@ body.dark-mode {
       width: 120px;
       height: 120px;
   }
+    /* Fade-in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+  /* Apply Animation */
+section, article, .profile-pic, .social-links a {
+  animation: fadeIn 1s ease-in-out;
 }
 }
