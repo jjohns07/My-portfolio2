@@ -5,11 +5,7 @@
   box-sizing: border-box;
   font-family: Arial, sans-serif;
 }
-img{
-  max-width:100%;
-  height:auto;
-  display:block;
-}
+
 /* Body Styling */
 body {
   background-color: #f4f4f4;
