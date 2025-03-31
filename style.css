@@ -20,6 +20,12 @@ header {
   padding: 20px;
   text-align: center;
 }
+.profile-pic{
+  max-width:100%;
+  height:auto;
+  display:block;
+  object-fit:cover;
+}
 
 nav ul {
   list-style: none;
