@@ -21,9 +21,9 @@ header {
   text-align: center;
 }
 .profile-pic{
-  width:50%;
+  width:100%;
   max-width:300px;
-  height:300px;
+  height:auto;
   display:block;
   object-fit:cover;
   
