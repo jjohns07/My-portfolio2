@@ -21,10 +21,12 @@ header {
   text-align: center;
 }
 .profile-pic{
-  max-width:100%;
-  height:auto;
+  width:50%;
+  max-width:300px;
+  height:300px;
   display:block;
   object-fit:cover;
+  
   
 }
 
@@ -157,10 +159,6 @@ body.dark-mode {
       width: 95%;
   }
   
-  .profile-pic {
-      width: 120px;
-      height: 120px;
-  }
     /* Fade-in Animation */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
